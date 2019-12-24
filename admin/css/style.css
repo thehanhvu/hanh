@@ -1,0 +1,89 @@
+*{
+	padding:0;
+	margin:0;
+	}
+.khung{
+	width:1000px;
+	margin:0 auto;
+	position:relative;
+	}
+.xoa{ clear:both;}
+.banner{
+	width:100%;
+	height:150px;
+	background:#CCC;
+	
+	}
+.menu{
+	width:20%;
+	float:left;
+	background:#FFE7CE;
+	}
+.menu ul{
+	width:100%;}
+.menu ul li{  
+	width:100%;
+	height:40px;
+	line-height:40px;
+	list-style:none;
+	border-bottom:2px solid #F00;
+	text-indent:10px;
+	}
+.menu ul li a{
+	text-decoration:none;
+	
+	}
+.main{
+	width:80%;
+	float:left;
+	background:#CAFFFF;
+	}
+.footer{
+	width:100%;
+	background:#3F3;
+	}
+.tieude {
+	font-size:1.3em;
+	font-weight:bold;
+	height:25px;
+	text-align:center;
+	color:#000066;
+	padding-top:10px;
+	}
+.tieudenho {
+	font-weight:bold;
+	right:10px;
+	height:25px;
+	text-align:right;
+	padding-right:10px;
+	}
+.tblietke{
+	margin:0 auto;
+	width:90%;
+	border:none;
+	border-bottom:1px solid #999; 
+	margin-bottom:20px;
+	margin-top:50px;
+	}
+.td{
+	font-weight:bold;
+	text-align:center;
+	}
+.td_duoi{
+	text-align:center;
+}
+/***************** ORTHER ***********************/
+.submit{
+	background:#33b5e5 ;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  padding:3px 5px;
+	}
+.submit:hover {
+  background:#28d;
+	}
+.submit:focus {
+  border-color: #05a;
+	}
+.doimaunen{ background:#FBE195;}
