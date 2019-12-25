@@ -161,56 +161,35 @@
 		color:#00CC00;
 	}
 .footer{
-	float:left;
-	width:100%;
-	height:400px;
+	height:500px;
 	background:url(../img/ffffft.jpg) no-repeat center;
+	background-size:cover;
 	z-index:100;
 	}
 .lienhe{
-		float:left;
-		width:300px;
-		padding:50px 10px 20px 200px;
+		text-indent:20px;
+		margin-top:50px;
 	}
-.lienhe ul{
-		
+.lienhe h4{
+	color:#FF0;
+	margin-left:17px;
 	}
-.lienhe ul li{
+.lienhe p{
 		color:#FFF;
-		font-size:18px;
-		padding-top:10px;
-		text-decoration:none;
-		list-style:none;
-	}
-#diachi{
-	background:url(../img/diachi.jpg) no-repeat left;
-	padding:0 20px;
-	}
-#dtchinh{
-	background:url(../img/dtchinh.png) no-repeat left;
-	padding:0 20px;
-	}
-#dtkhac{
-	background:url(../img/dtkhac.png) no-repeat left;
-	padding:0 20px;
-	}
-#mail{
-	background:url(../img/mail.png) no-repeat left;
-	padding:0 20px;
+		font-weight:bold;
+		font-size:1.2em;
 	}
 .danhmuc{
-		width:200px;
-		padding:50px 10px 20px 100px;
-		float:left;
-		
+		text-indent:20px;
+		margin-top:50px;	
 	}
-.danhmuc ul li{
-			padding-top:10px;
-			list-style:none;
+.danhmuc h4{
+			color:#FF0;
+			margin-left:17px;
 	}
-.danhmuc ul li a{
-				color:#FFF;
-				font-size:18px;
-				text-decoration:none;
+.danhmuc p a{
+			color:#FFF;
+			font-weight:bold;
+			font-size:1.2em;
 	}
-.danhmuc ul li a:hover{color:#F00;}
+.danhmuc p a:hover{color:#F00;}
