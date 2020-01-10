@@ -1,13 +1,13 @@
-<div class="container-fluid header-top"> 
-    <div class="row">
+<div class="container-fluid "> 
+    <div class="row header-top">
         <div class="col-sm-5 col-md-5 col-lg-5 text-center">
-            <a href="#">Địa chỉ: Đường Dựng - Liên Phương - TP.Hưng Yên</a>
+            <p>Địa chỉ: Đường Dựng - Liên Phương - TP.Hưng Yên</p>
         </div>
         <div class="col-sm-3 col-md-3 col-lg-3 text-center">
-            <a href="#">Mail: nhuonghoang92@gmail.com</a>
+            <p>Mail: nhuonghoang92@gmail.com</p>
         </div>
         <div class="col-sm-4 col-md-4 col-lg-4 text-center">
-            <a href="#">Liên hệ: 0975.493.998 - 0979.629.930</a>
+            <p>Liên hệ: 0975.493.998 - 0979.629.930</p>
         </div>
     </div>
 </div>

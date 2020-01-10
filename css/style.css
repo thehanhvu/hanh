@@ -10,17 +10,29 @@
 	margin:0 !important;
 }
 .header-top{
-	background:#930;
-	height:50px;
-	line-height:50px;
+	background:#FF8040;
+	
 }
+.header-top p{
+	
+	color:#FFF;
+	font-size:1.2em;
+	}
 .menu{
-	width:1000px;
 	height:50px;
 	background:#00CC00;
 	margin:0px auto;
+	width:100%;
 	}
+.menu-noi{
+	position:fixed;
+	top:0;
+	z-index:2000;
 
+	}
+.menu-container{
+	width:100%;
+}
 .menu ul{
 		list-style:none;
 		}
@@ -33,33 +45,33 @@
 			background:#FF0000;
 }
 .menu ul li:hover ul{
+			
 			display:block;
 	}
 	
 .menu ul li a{
 			text-decoration:none;
 			font-weight:bold;
-			font-size:18px;
+			font-size:1.5em;
 			padding:15px 20px;
 			color:#FFF;
 				}
 .menu ul li ul{
-	position:absolute;
-	display:none;
-	width:250px;
-	background:#CCC;
-	top:48px;
-	left:0;
-	z-index:999;
+	width:260px;
+			position:absolute;
+			display:none;
+			background:#CCC;
+			top:48px;
+			left:0;
+			z-index:999;
 	}
 .menu ul li ul li{
-		float:left;
-		width:100%;
-		height:auto;
+			width:100%;
+			float:left;
+			height:auto;
 	}
 .menu ul li ul li a{
 			float:left;
-			width:150px;
 			top:25px;
 			padding:4px 0 0 0;
 			}
@@ -91,69 +103,67 @@
 .nutphai:hover{
 	cursor:pointer;
 }
+.test{
+	width:100%;
+	height:50px;
+	background:#F00;
+	}
 .main{
-	
+	padding:0;
 	background:#F7F7F7;
-	position:relative;
+
 	}
 
 .tieude{
-		width:100%;
 		height:50px;
         background: rgb(218, 215, 215);
         line-height: 50px;
-        float: left;
 		}
 .tieude a{
-            background:#FF0404;
-            float: left;
-			text-decoration:none;
-			font-size:18px;
-			color:#FFF;
-			padding:0 10px 0 15px;
-			line-height:50px;
-			font-weight:bold;
-            -webkit-border-top-right-radius:10px;
-        -moz-border-top-right-radius:10px;
-        -o-border-top-right-radius:10px;
-        -ms-border-top-right-radius:10px;
+		background:#FF0404;
+		float: left;
+		text-decoration:none;
+		font-size:18px;
+		color:#FFF;
+		line-height:50px;
+		font-weight:bold;
+		padding:0 10px;
+		-webkit-border-top-right-radius:10px;
+		-moz-border-top-right-radius:10px;
+		-o-border-top-right-radius:10px;
+		-ms-border-top-right-radius:10px;
 		}
 .tieude i{
-    color:#FFF !important;
-	padding-right:10px;
+    	color:#FFF !important;
 }
 .main1{
-		width:250px;
-		height:auto;
-		float:left;
-		padding: 10px 10px 10px 55px;
-		
+	width:100%;
+	float:left;	
 	}
 
 .thongtin{
-	float:left;
-	height:50px;
-	background:#FF9A35;
-	text-align:center;
+		width:100%;
+		float:left;
+		height:50px;
+		background:#FF9A35;
+		text-align:center;
 	}
 .thongtin a{
-			text-decoration:none;
-			font-size:14px;
-			line-height:50px;
-			font-weight:bold;
-			color:#000;
+		text-decoration:none;
+		font-size:14px;
+		line-height:50px;
+		font-weight:bold;
+		color:#000;
 			
 	}
 .thongtin a:hover{ color:#F00;}
 .them{
-	width:;
-	height:25px;
-	float:left;
+	height:30px;
+	float:right;
 	}
 .them a{
 		line-height:25px;
 		font-weight:bold;
-		float:right;
 		color:#00CC00;
 	}
 .footer{
@@ -189,3 +199,61 @@
 			font-size:1.2em;
 	}
 .danhmuc p a:hover{color:#F00;}
+.trang{
+	margin:0 auto;
+	}
+.tuvan{
+	width:100%;
+	}
+.menu_tuvan{
+	width:18%;
+	float:right;
+	border-right:1px solid #999;
+    border-left:1px solid #999;
+	}
+.menu_tuvan ul{
+	list-style:none;
+	}
+.menu_tuvan ul li{
+	line-height:30px;
+	border-bottom:2px solid #999; 
+	}
+.menu_tuvan ul li a{
+	text-decoration:none;
+	}
+
+.nd_tuvan{
+	width:80%;
+	float:left;
+	background:#FFF;
+	padding-left:10px;
+	}
+.tieude1{
+	font-size:24px;
+	font-weight:bold;
+	text-align:center;
+	padding:50px 0 50px 0;
+	}
+.tieude1 a{
+	
+	}
+.noidung{
+	border-bottom:2px solid #999;
+	}
+.noidung p{
+	padding:5px 0 5px 0;
+	}
+.lienhe{
+		float:left;
+		width:100%;
+	}
+.nd_lienhe h1{
+		color:#F00;
+	}
+.lienhe ul li{
+		color:#FFF;
+		font-size:18px;
+		padding-top:10px;
+		text-decoration:none;
+		list-style:none;
+}

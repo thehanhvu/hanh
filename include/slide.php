@@ -29,7 +29,7 @@
 		dich =0;
 		width = sliderWraper.offsetWidth;
 		W = width*img.length;
-		var height = width/3;
+		var height = width/2;
 		sliderWraper.style.height = height +'px';
 		if(!slide.style.position) slide.style.positon = 'absolute';
 		if(!slide.style.left) slide.style.left = 0;
