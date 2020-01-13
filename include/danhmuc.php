@@ -10,7 +10,7 @@
 ?>
 <div class="container">
  	<div class="row">
-    	<div class="col-sm-12 col-md-12 col-lg-12 tieude no-padding"><a href="index.php?xem=danhmuc&iddanhmuc=<? echo $rs["idDanhMuc"];?>"><i class="glyphicon glyphicon-th"></i><? echo $rs["tenDanhMuc"];?></a>
+    	<div class="col-sm-12 col-md-12 col-lg-12 tieude no-padding"><a href="index.php?xem=danhmuc&iddanhmuc=<? echo $rsdanhmuc["idDanhMuc"];?>"><i class="glyphicon glyphicon-th"></i><? echo $rsdanhmuc["tenDanhMuc"];?></a>
         </div>
 
 <? 

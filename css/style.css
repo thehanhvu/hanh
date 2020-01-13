@@ -37,10 +37,10 @@
 		list-style:none;
 		}
 .menu ul li{
-			position:relative;
-			float:left;
-			line-height:50px;
-			}
+	position:relative;
+	float:left;
+	line-height:50px;
+}
 .menu ul li:hover{
 			background:#FF0000;
 }
@@ -58,12 +58,12 @@
 				}
 .menu ul li ul{
 	width:260px;
-			position:absolute;
-			display:none;
-			background:#CCC;
-			top:48px;
-			left:0;
-			z-index:999;
+	position:absolute;
+	display:none;
+	background:#CCC;
+	top:48px;
+	left:0;
+	z-index:999;
 	}
 .menu ul li ul li{
 			width:100%;
@@ -75,6 +75,52 @@
 			top:25px;
 			padding:4px 0 0 0;
 			}
+	.icon{
+		position: absolute;
+		top:0;
+		left:0;
+		display: block;
+		cursor: pointer;
+	}
+	.icon i{display: none;}
+@media screen and (max-width:968px){
+	.menu{
+		background:#00CC00;
+		margin:0px auto;
+		width:100%;
+		z-index: 1999;
+		height:30px;
+		}
+	.menu ul {
+		display: none;
+		margin-left: 1rem;
+	}
+	.menu ul li{
+		position:relative;
+		float:none;
+		width:100%
+	}	
+	
+	.icon i{
+		text-indent:1rem;
+		height:30px;
+		line-height: 30px;
+		color: rgb(243, 237, 237);
+	}
+	.icon i:first-child{
+		display: block;
+	}
+	.menu-height{
+		height:auto;
+	}
+	.menu-height>ul{
+		display: block;
+	}
+	.menu-height .icon i:first-child{display:none;}
+	.menu-height .icon i:nth-child(2){display:block;}
+
+	
+}
 #sliderWraper{
 	position: relative;
 	overflow: hidden;
