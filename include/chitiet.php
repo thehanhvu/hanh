@@ -7,7 +7,7 @@ $rs = mysql_fetch_array($tb);
 <div class="container">
 	<div class="row">
     	<div class="col-sm-12 col-md-12 col-lg-12 chitiet">
-            <div class="col-sm-6 col-md-6 col-lg-6 mainleft"><img src="<? echo $rs["hinhAnh"];?>" width="500px" height="500px"></div>
+            <div class="col-sm-6 col-md-6 col-lg-6 mainleft thumbnail"><img src="<? echo $rs["hinhAnh"];?>" width="100%"></div>
             <div class="col-sm-6 col-md-6 col-lg-6 mainright">
                 <h1><? echo $rs["tenSanPham"]?></h1>
                 <p><? echo $rs["xuatXu"]?></p>

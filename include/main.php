@@ -15,8 +15,8 @@
         <? $sql1 = "select * from sanpham where idDanhMuc ='$rs[idDanhMuc]' order by idSanPham DESC limit 0,4";
 			$tb1= mysql_query($sql1);
 			while ($rs1 = mysql_fetch_array($tb1)){?>
-				<div class="col-sm-3 col-md-3 col-lg-3 main1">
-                    <div class="image"><a href="index.php?xem=chitiet&idsanpham=<? echo $rs1["idSanPham"];?>"><img src="<? echo $rs1["hinhAnh"];?>" width="250px" height="250px" /></a></div>
+				<div class="col-sm-3 col-md-3 col-lg-3 main1 thumbnail">
+                    <div class="image"><a href="index.php?xem=chitiet&idsanpham=<? echo $rs1["idSanPham"];?>"><img class="img-rounded" src="<? echo $rs1["hinhAnh"];?>" width="250px" height="250px" /></a></div>
                     <div class="thongtin"><a href="index.php?xem=chitiet&idsanpham=<? echo $rs1["idSanPham"];?>"><? echo $rs1["tenSanPham"];?></a></div>       
     			</div>
 		<? }?>

@@ -258,11 +258,19 @@
     border-left:1px solid #999;
 	}
 .menu_tuvan ul{
-	list-style:none;
+	list-style:disc inside;
+	border-bottom:2px solid #999;
+	}
+.menu_tuvan ul p{
+	width:100%;
+	text-align:center;
+	font-weight:bold;
+	font-size:1.2em;
 	}
 .menu_tuvan ul li{
 	line-height:30px;
-	border-bottom:2px solid #999; 
+	 
+	padding:0 10px;
 	}
 .menu_tuvan ul li a{
 	text-decoration:none;
@@ -302,4 +310,42 @@
 		padding-top:10px;
 		text-decoration:none;
 		list-style:none;
+}
+div.trang {
+	width:100%;
+	position:relative;
+	margin-top:20px;
+	height:30px;
+	line-height:30px;
+	margin-bottom:20px;
+}
+div.trang ul {
+	position:absolute;
+	width:auto;
+	float:right;
+	right:10px;
+}
+div.trang ul li
+{
+	list-style:none;
+	border:1px solid #CCC;
+	float:left;
+		color:#00C;
+}
+div.trang ul li:hover
+{
+	background:#9C9;
+}
+div.trang ul li a
+{
+	padding-left:7px;
+	padding-right:7px;
+	text-decoration:none;
+
+}
+div.trang ul a:hover{
+	cursor:pointer;
+}
+.liactive{
+	background:#9c9;
 }

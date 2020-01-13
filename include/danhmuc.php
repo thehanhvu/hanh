@@ -19,8 +19,8 @@ $tb = mysql_query($sql);
 
 ?>
     <? while($rs=mysql_fetch_array($tb)){?> 
-        <div class="col-sm-3 col-md-3 col-lg-3 main1">
-            <div class="image"><a href="index.php?xem=chitiet&idsanpham=<? echo $rs["idSanPham"];?>"><img src="<? echo $rs["hinhAnh"];?>" width="250px" height="250px" /></a></div>
+        <div class="col-sm-3 col-md-3 col-lg-3 main1 thumbnail">
+            <div class="image"><a href="index.php?xem=chitiet&idsanpham=<? echo $rs["idSanPham"];?>"><img class="img-rounded" src="<? echo $rs["hinhAnh"];?>" width="100%" /></a></div>
             <div class="thongtin"><a href="index.php?xem=chitiet&idsanpham=<? echo $rs["idSanPham"];?>"><? echo $rs["tenSanPham"];?></a></div>
         </div>
     <? }?> 

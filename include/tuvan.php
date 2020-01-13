@@ -9,7 +9,7 @@ $show=$_GET["show"];
         <div class="col-sm-12 col-md-12 col-lg-12 tuvan">
             <div class="menu_tuvan">
                 <ul>
-                    <li>CÂU HỎI THƯỜNG GẶP</li>
+                    <p>CÂU HỎI THƯỜNG GẶP</p>
                     <? 
                     while($rs = mysql_fetch_array($tb)){?>
                         <li><a href="index.php?xem=tuvan&idBaiViet=<? echo $rs["idBaiViet"];?>"><? echo $rs["tieuDe"];?></a></li>
