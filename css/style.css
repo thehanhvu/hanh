@@ -3,6 +3,9 @@
 	padding:0;
 	margin:0;
 }
+.clr{
+	clear:both;
+	}
 .no-padding{
 	padding:0 !important;
 }
@@ -161,9 +164,8 @@
 	}
 
 .tieude{
-		height:50px;
+		
         background: rgb(218, 215, 215);
-        line-height: 50px;
 		}
 .tieude a{
 		background:#FF0404;
@@ -252,35 +254,33 @@
 	width:100%;
 	}
 .menu_tuvan{
-	width:18%;
-	float:right;
-	border-right:1px solid #999;
-    border-left:1px solid #999;
+	width:100%;
+	
 	}
-.menu_tuvan ul{
-	list-style:disc inside;
-	border-bottom:2px solid #999;
-	}
-.menu_tuvan ul p{
+
+.menu_tuvan p:first-child{
 	width:100%;
 	text-align:center;
 	font-weight:bold;
 	font-size:1.2em;
+	color:#F30;
 	}
-.menu_tuvan ul li{
-	line-height:30px;
-	 
+.menu_tuvan p{
 	padding:0 10px;
-	}
-.menu_tuvan ul li a{
+	text-align:justify;
+}
+.menu_tuvan p:nth-child(odd) a{
+	color:#0C0;
+}
+.menu_tuvan p:nth-child(even) a{
+	color:#30F;
+}
+.menu_tuvan a{
 	text-decoration:none;
 	}
-
 .nd_tuvan{
-	width:80%;
-	float:left;
+	width:100%;
 	background:#FFF;
-	padding-left:10px;
 	}
 .tieude1{
 	font-size:24px;
@@ -292,7 +292,7 @@
 	
 	}
 .noidung{
-	border-bottom:2px solid #999;
+	
 	}
 .noidung p{
 	padding:5px 0 5px 0;
@@ -349,3 +349,7 @@ div.trang ul a:hover{
 .liactive{
 	background:#9c9;
 }
+.mainright h3{
+	color:#F30;
+	text-align:center;
+	}
